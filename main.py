@@ -16,7 +16,13 @@ print(result)
 
 
 def count_words():
-    text = read_file_content("./story.txt")
-    # [assignment] Add your code here
+    counts = dict()
+    text = str.split()
+    for t in text:
+       if t in counts:
+           counts[t] +=1
+       else:
+           counts[t] =1
 
-    return {"as": 10, "would": 20}
+    return counts
+print(count_words(result))
