@@ -15,7 +15,7 @@ result = read_file_content('story.txt')
 print(result)
 
 
-def count_words():
+def count_words(str):
     counts = dict()
     text = str.split()
     for t in text:
